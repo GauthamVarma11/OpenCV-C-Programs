@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argv, char** argc)
 {
-	Mat original = imread("avengers.png", CV_LOAD_IMAGE_GRAYSCALE);
+  Mat original = imread("avengers.png", CV_LOAD_IMAGE_GRAYSCALE);
   Mat modified = imread("avengers.png", CV_LOAD_IMAGE_GRAYSCALE);
 
 	for (int r = 0;r < modified.rows;r++)
